@@ -1,6 +1,4 @@
-// 相違点：data ＝＞ INIT_TODO_LIST(定数名)
-
-export const INIT_TODO_LIST = [
+export const data = [
     {
         id: 1,
         content: "Todo1",
