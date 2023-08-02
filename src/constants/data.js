@@ -1,5 +1,3 @@
-// 相違点：data ＝＞ INIT_TODO_LIST(定数名)
-
 // TodoListの初期値
 export const INIT_TODO_LIST = [
   {
