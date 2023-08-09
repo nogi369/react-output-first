@@ -2,11 +2,11 @@
 export const INIT_TODO_LIST = [
   {
       id: 1,
-      content: "Todo1",
+      title: "Todo1",
   },
   {
       id: 2,
-      content: "Todo2",
+      title: "Todo2",
   },
 ];
 
