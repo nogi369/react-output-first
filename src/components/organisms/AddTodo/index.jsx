@@ -1,13 +1,18 @@
+import { InputForm } from "../../atoms/InputForm";
+import styles from "./styles.module.css"
+
 export const AddTodo = (props) => {
-  const { addInputValue, handleAddTodo, onChangeTodo } = props;
+  const { addInputValue, onChangeTodo, handleAddTodo } = props;
 
   return (
-    <input
-      type="text"
-      value={addInputValue}
-      onChange={onChangeTodo}
-      onKeyDown={handleAddTodo}
-      placeholder="New Todo"
-    />
+    <>
+      <h2 className={styles.subTitle}>ADD TODO</h2>
+      <InputForm
+        InputValue={addInputValue}
+        placeholder={"New Todo"}
+        handleChangeValue={onChangeTodo}
+        handleKeyDown={handleAddTodo}
+      />
+    </>
   );
 }
